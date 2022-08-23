@@ -1,7 +1,7 @@
 html {
     background: radial-gradient(farthest-corner at right top,#21A09D, #06182D);
-    height: auto;
     font-family: 'Roboto', cursive;
+    height: 100%;
 }
 
 .conteudo {
