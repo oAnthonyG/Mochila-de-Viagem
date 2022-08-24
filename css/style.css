@@ -1,16 +1,14 @@
 html {
     background: radial-gradient(farthest-corner at right top,#21A09D, #06182D);
+    height: 100%;
     font-family: 'Roboto', cursive;
-    height: 100vh;
 }
-
 
 .conteudo {
     padding: 10vh 3em 0;
     display: flex;
     align-items: flex-start;
     gap: 2em;
-    
 }
 
 .principal {
@@ -23,9 +21,8 @@ html {
     background: #C5965F;
     border-radius: 10px;
     gap: 2em;
-    
 }
-
+  
 .mochila {
     min-width: 170px;
     max-width: 170px;
@@ -44,13 +41,13 @@ html {
     flex-basis: auto;
     flex-grow: 1;
 }
-
+  
 .mochila:before, .mochila:after {
     display: block;
     content: '';
     position: absolute;
   }
-
+  
 .mochila:before {
     height: 75px;
     width: 118px;
@@ -68,7 +65,7 @@ html {
     text-shadow: rgb(0, 0, 0) -2px -86px 0px;
     font-size: 14px;
 }
-
+  
 .mochila:after {
     margin-left: 67px;
     margin-top: -30px;
@@ -132,3 +129,4 @@ html {
     Background: #C5965F;
     font-weight: 400;
 }
+
